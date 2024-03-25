@@ -1,0 +1,74 @@
+.logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+h2 {
+  color: #333;
+}
+
+.usuarios {
+  display: flex;
+  justify-content: center;  
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card img:hover {
+  border: 5px solid white;
+}
+
+.card:hover h2 {
+  color: white;
+}
+
+.gerenciar {
+  width: 220px;
+  height: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #000000;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
+}
+
+.gerenciar:hover {
+  background: #ffffff;
+  color: black;
+}
